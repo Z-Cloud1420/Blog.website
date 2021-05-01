@@ -1,0 +1,117 @@
+header {
+    background-color: rgba(255, 0, 0, 0);
+    width: 1024px;
+    height: 188px;
+    text-align: center;
+    text-shadow: rgb(10, 10, 2);
+color: rgb(236, 247, 247);
+font-size: xx-large;
+
+}
+nav {
+    background-color: rgba(136, 175, 29, 0.158);
+  
+    height: 40px;
+    padding-top: 14px;
+    padding-bottom:14px;
+    text-align: center;
+   
+    
+}
+.signup-btn {
+    border-radius: 20px;
+     padding: 10px;
+     margin: 10px 0;
+     width: 50%; 
+     border: 3px solid rgb(82, 221, 240)
+     
+     
+    
+}
+
+ .sign-up-Form{
+     width: 300px;
+     height: 200px;
+    color: white;
+    padding-top: 70px;
+    margin-right: 50px;
+ }
+
+ .inputbox {
+     border-radius: 20px;
+     padding: 10px;
+     margin: 10px 0;
+     width: 100%; 
+     border: 3px solid rgb(82, 221, 240)
+    
+     
+ }
+a {
+    color: rgb(240, 240, 238);
+    font-style: Bold;
+}
+nav a {
+     text-decoration: none;
+     padding-left: 14px;
+     padding-right: 14px;
+ padding-top: 100px;
+ 
+}
+main {
+    background-color: rgba(17, 0, 255, 0.027);
+    width: 1024px;
+    height: 400px;
+    font-size: xx-large;
+   
+    text-align: center;
+}
+
+main p {
+     padding-top: 150px;
+     color: cornsilk;
+}
+img {
+    width: 170px;
+    padding-top: 100px;
+    margin-left: 60px;
+    
+    
+}
+ 
+footer {
+    background-color: rgba(0, 255, 170, 0.288);
+    width: 1024px;
+    height: 100px;
+}
+
+.Container {margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+body {
+
+    background-color: rgb(187, 181, 181);
+    background-image: url(image/3679601.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body h1 {
+    color: cornsilk;
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Maps { padding-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+footer h4 {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-style: bold;
+}
+    
+
