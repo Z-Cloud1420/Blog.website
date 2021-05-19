@@ -1,0 +1,465 @@
+.Nav {
+
+    background-color: rgba(128, 128, 128, 0.24);
+    height: 50px;
+    margin: auto;
+    width: 2000px;
+text-align: center;
+    color: white ;
+   font-size: 30px;
+   margin-bottom: 300px;
+}
+h4{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font: 5em oblique;}
+ 
+
+
+h3{
+    font-size: 200px;
+    color: yellowgreen;
+    margin: 0px;
+    text-align: center;
+    margin-top: 200px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 90px;
+    text-align: center;
+   font-size: medium;
+}
+.Main {
+    height: 1000px;
+    width:2000px;
+    background-color: rgba(128, 128, 128, 0.24);
+    margin: auto;
+    margin-top: 500px;
+
+}
+body {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top ;
+}
+footer {
+    height: 60px;
+    width:2000px;
+    background-color: white;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+img {
+    align-items: center;
+    
+    margin: auto;
+}
+.Main2 {
+    height: 1000px;
+    width:2000px;
+    background-color: rgba(128, 128, 128, 0.24);
+    margin: auto;
+    margin-top: 400px;
+
+}
+h2 {
+    font-size: 100px;
+    color: yellow;
+    text-align: center;
+    margin: auto;
+    margin-top: 400px;
+    
+}
+
+h1 {
+    font-size: 100px;
+    color: tomato;
+    text-align: center;
+    margin: auto;
+    
+}
+
+p {
+    font-size: large;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    margin-top: 100px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+a:hover { 
+  background-color: rgba(255, 255, 255, 0.644)
+ 
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="DD.CSS" rel="Stylesheet"> 
+</head>
+<body>
+<h4>
+    Thai Foodie
+</h4>
+    <div class=" Nav">
+
+        <a href="#"> Home </a>
+        <a href="#"> Blog </a>
+        <a href="#"> About </a>
+        <a href="#"> Contact</a>
+        
+    </div>
+</body>
+<style>
+    * {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1900px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="image/basil-minced-pork-with-rice-fried-egg.jpg" style="width:100%" width="2000px" height="1050px">
+      <div class="text">basil-minced-pork-with-rice-fried-egg</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="image/red-curry-meatballs-with-chili-scallions-bowl.jpg" style="width:100%" width="2000px" height="1050px">
+      <div class="text">red-curry-meatballs-with-chili-scallions-bowl</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="image/shrimp-pad-thai-white-background.jpg" style="width:100%" width="2000px" height="1050px">
+      <div class="text">shrimp-pad-thai</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    <h3>
+
+ Just Started 
+    </h3>
+
+    <div class="Main">
+
+        <img src="image/side-view-spaghetti-with-greens-ricotta-cheese-round-white-plate (1).jpg"  width="2000px" height="1050px"> 
+<h1>
+    White
+</h1>
+        <p>
+            As the industry-leading video editing software for professional video<br>
+             enthusiasts and hardcore filmmakers, Final Cut Pro works exclusively on Apple's<br>
+              own operating system for personal computers - Mac. There's no Windows version of <br>
+              Final Cut Pro at all. So if you're using Microsoft's Windows system, you have to find<br>
+               a Final Cut Pro for Windows alternative. There is not many choices, however.
+
+ 
+        </p>
+   
+
+        <p>
+            As the industry-leading video editing software for professional video<br>
+             enthusiasts and hardcore filmmakers, Final Cut Pro works exclusively on Apple's<br>
+              own operating system for personal computers - Mac. There's no Windows version of <br>
+              Final Cut Pro at all. So if you're using Microsoft's Windows system, you have to find<br>
+               a Final Cut Pro for Windows alternative. There is not many choices, however.
+
+ 
+        </p>
+
+        <p>
+            As the industry-leading video editing software for professional video
+             enthusiasts and hardcore filmmakers, Final Cut Pro works exclusively on Apple's
+              own operating system for personal computers - Mac. There's no Windows version of 
+              Final Cut Pro at all. So if you're using Microsoft's Windows system, you have to find
+            a Final Cut Pro for Windows alternative. There is not many choices, however.
+            Final Cut Pro at all. So if you're using Microsoft's Windows system, you have to find
+            a Final Cut Pro for Windows alternative. There is not many choices, however.
+        </p>
+
+        <h2>
+            Blue
+        </h2>
+
+        <p>
+            As the industry-leading video editing software for professional video<br>
+             enthusiasts and hardcore filmmakers, Final Cut Pro works exclusively on Apple's<br>
+              own operating system for personal computers - Mac. There's no Windows version of <br>
+              Final Cut Pro at all. So if you're using Microsoft's Windows system, you have to find<br>
+               a Final Cut Pro for Windows alternative. There is not many choices, however.
+
+ 
+        </p>
+
+        
+        <p>
+            As the industry-leading video editing software for professional video<br>
+             enthusiasts and hardcore filmmakers, Final Cut Pro works exclusively on Apple's<br>
+              own operating system for personal computers - Mac. There's no Windows version of <br>
+              Final Cut Pro at all. So if you're using Microsoft's Windows system, you have to find<br>
+               a Final Cut Pro for Windows alternative. There is not many choices, however.
+
+ 
+        </p>
+
+        <p>
+            As the industry-leading video editing software for professional video
+             enthusiasts and hardcore filmmakers, Final Cut Pro works exclusively on Apple's
+              own operating system for personal computers - Mac. There's no Windows version of 
+              Final Cut Pro at all. So if you're using Microsoft's Windows system, you have to find
+            a Final Cut Pro for Windows alternative. There is not many choices, however.
+            Final Cut Pro at all. So if you're using Microsoft's Windows system, you have to find
+            a Final Cut Pro for Windows alternative. There is not many choices, however.
+        </p>
+
+        
+    <div class="Main2">
+        <img src="image/salmon-with-ingredients-table.jpg"  width="2000px" height="1090px">
+
+    </div>
+
+    <footer>
+@Zay Hlang Htet 2021
+    </footer>
+</body>
+</html>
